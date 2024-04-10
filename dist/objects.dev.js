@@ -47,4 +47,18 @@ b = 20;
 console.log("a:", a, "b:", b);
 /* PASAS VALORES ENTRE VARIABLES POR: 
 1. VALOR: Cuando decimos que b es igual a a, estamos haciendo una copia de lo que vale a en la variable b
-2. REFERENCIA:  Los valores de los arrays y objetos funcionan por referencia, no por valor, cuando cambiamos las propiedades en un objeto las cambiamos también en el otro*/
+2. REFERENCIA:  Los valores de los arrays y objetos funcionan por referencia, no por valor, cuando cambiamos las propiedades en un objeto las cambiamos también en
+la variable. */
+
+/* Se pueden hacer objetos dentro de objetos */
+
+var UpgradeHub = {
+  name: "UpgradeHub",
+  address: "Calle falsa 123",
+  Masters: {
+    Categoria: "Profesional",
+    precio: 2500,
+    fees: 250
+  }
+};
+console.log(UpgradeHub.Masters.Categoria);
