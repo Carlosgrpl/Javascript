@@ -37,7 +37,6 @@ function suma(num1, num2, num3) {
 
 suma(10, 20, 30);
 suma(30, 48, 3838393);
-suma(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20);
 
 function multiplicar(num1, num2, num3) {
   return (
@@ -55,19 +54,20 @@ console.log(resultado);
 console.log(
   "Formas de definir una función (¿Cuál es mejor? DA IGUAL, la que nos guste más)."
 );
+
 /* Function statement */
-function decirHola() {
+function decirSaludo() {
   console.log("Hola");
 }
 
-/* Como se ejecuta: */ decirHola();
+/* Como se ejecuta: */ decirSaludo();
 
 /* Function expression */
-const decirHola = function () {
+const decirHolaOtraVez = function () {
   console.log("¡Hola!");
 };
 
-/* Como se ejecuta: */ decirHola();
+/* Como se ejecuta: */ decirHolaOtraVez();
 
 console.log("Arrow Functions");
 /* Arrow Functions */
@@ -103,3 +103,4 @@ function g() {
 
 llamador(f);
 llamador(g);
+/* Llamador es caller */
